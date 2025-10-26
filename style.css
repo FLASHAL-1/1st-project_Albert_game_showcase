@@ -1,16 +1,278 @@
-.fifaimage img {
-    appearance: cover;
-    alignment: left;
-    width: 100%;
-    height: 100%;
-    border-radius: auto;
-    display: flex;
-    padding: 10 10 10 10;
-    animation-play-state: running;
-    
-    
+body{
+   background-image: url("images/albert\ logo.jpg"); 
+background-size: cover;
+animation: change 50s infinite alternate; 
+}
     
 
+.nav{
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 10px;
     
+}
+.nav a{
+    color: white;
+    text-decoration:wavy;
+    margin: 10px;
+border: 10px;
+background-color:orange;
+border-radius: 10px;
+background-size: 100%;
+}
+.nav a:hover{
+    color: rgb(0, 255, 255);}
+
+    .us{
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+    }
+.discription{
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+.logo{
+    border-style: double;
+    border-radius: 100%;
+    border:100%;
+    height: 5%;
+    width: 20%;
+}
+.about-intro h1{
+    color: orange;
+    text-align: center;
+    font-style: italic;
+}
+.about-intro h2{
+    color: white;
+    text-align: center;
+}
+.about-intro h2:hover{
+    color: aquamarine;
+}
+.discription h1{
+    color: white;
+    font-size: 5.0rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10%;
+}
+h1:hover{
+    color:rgb(68, 255, 0);
+}
+.discription p{
+    color: rgb(255, 255, 255);
+    font-size: 2.0rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.footer{
+    text-align: center;
+}
+.links{
+    backdrop-filter: blur(10px);
+}
+.btn-1{
+    
+    font-size: 2.0rem;
+    border-radius: 50px;
+    padding: 10px 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn-1:hover{
+    color: rgb(0, 255, 255);
+}
+
+.games{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.games h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.games h2, p{
+    color: whitesmoke;
+}
+.game-name:hover{
+    color: brown;
+
+}
+.game-card{
+
+    border:solid rgb(47, 211, 206);
+    backdrop-filter: blur(10px);
+    background-size: 500px;
+    border-radius: 20%;
+    width: 50%;
+    margin-right: 5%;
+
+}
+.game-img{
+    border-radius: 30%;
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+}
+.game-video{
+    width: 90%;
+    border-radius: 40px;
+    padding: 10px;
+}
+.games{
+    justify-content: space-between;
+    display: flex;
+    padding: 10%;
+    
+}
+.game-btn{
+    border-radius: 40%;
+    align-items: center;
+    padding: 5px;
+    width: 40%;
+    color: aqua;
+}
+.game-btn:hover{
+    color: greenyellow;
+}
+  .about-info h1{
+    color: white;
+    text-align: center;
+
+  }
+  .about-info h2{
+    color: white;
+    text-align: center;
+
+  }
+  .about-info p{
+    text-align: center;
+    font-style: italic;
+
+  }
+  .review-cont{
+    border: solid 10%;
+    backdrop-filter: blur(10px);
+    border-radius: 10%;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    border-color: rgb(12, 194, 37);
+    
+  }
+  .review-fm{
+    text-align: center;
+    color: white;
+  }
+  .review-btn{
+    color: rgb(240, 12, 12);
+  }
+  .review-btn:hover{
+    color: chartreuse;
+    cursor:pointer;
+  }
+  .feedback{
+    border: solid 10%;
+    backdrop-filter: blur(10px);
+    border-radius: 10%;
+    padding: 10px;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  @keyframes change{
+    0%
+    {
+        background-image: url(https://yt3.ggpht.com/a/AATXAJzwOjRbioGXuj5KI1DVOMkXuhQ1RbTLhzysbw=s900-c-k-c0xffffffff-no-rj-mo
+);
+}
+20%
+{background-image: url("images/call\ of\ duty.jpeg " );}
+40%
+{background-image: url("images/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.webp");}
+60%
+{background-image: url(https://assets.mycast.io/posters/mortal-kombat-1-fan-casting-poster-385508-large.jpg?1695813362);} 
+80%
+{background-image: url("images/mortal-kombat-11-ultimate-ultimate-switch-game-nintendo-eshop-europe-cover.jpg"
+);}
+100%
+{background-image: url("images/nfs.avif");}
+
+  }
+@media (max-width: 600px) {
+  .nav {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .nav a {
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    width: 80%;
+  }
+
+  .games {
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+  }
+
+  .game-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .discription h1 {
+    font-size: 2rem;
+  }
+
+  .discription p {
+    font-size: 1.2rem;
+  }
+
+  .btn-1 {
+    font-size: 1.2rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+  .nav {
+    font-size: 1.2rem;
+  }
+
+  .games {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .game-card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .discription h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 901px) {
+  .games {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .game-card {
+    width: 40%;
+  }
+
+  .discription h1 {
+    font-size: 4rem;
+  }
+}
+
