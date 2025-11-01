@@ -1,7 +1,8 @@
 body{
    background-image: url("images/albert\ logo.jpg"); 
 background-size: cover;
-animation: change 50s infinite alternate; 
+animation: change 20s alternate ; 
+
 }
     
 
@@ -186,16 +187,14 @@ h1:hover{
   }
   @keyframes change{
     0%
-    {
-        background-image: url(https://yt3.ggpht.com/a/AATXAJzwOjRbioGXuj5KI1DVOMkXuhQ1RbTLhzysbw=s900-c-k-c0xffffffff-no-rj-mo
-);
-}
+    {background-image: url("images/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.webp"
+);}
 20%
 {background-image: url("images/call\ of\ duty.jpeg " );}
 40%
 {background-image: url("images/Pakistani-Gamers-Want-a-Seat-at-the-Table-Culture-shutterstock_1949862841.webp");}
 60%
-{background-image: url(https://assets.mycast.io/posters/mortal-kombat-1-fan-casting-poster-385508-large.jpg?1695813362);} 
+{background-image: url("images/mortal-kombat-11-ultimate-ultimate-switch-game-nintendo-eshop-europe-cover.jpg");} 
 80%
 {background-image: url("images/mortal-kombat-11-ultimate-ultimate-switch-game-nintendo-eshop-europe-cover.jpg"
 );}
@@ -274,5 +273,6 @@ h1:hover{
   .discription h1 {
     font-size: 4rem;
   }
+  
 }
 
